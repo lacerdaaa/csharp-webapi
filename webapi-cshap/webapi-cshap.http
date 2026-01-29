@@ -4,3 +4,12 @@ GET {{webapi_cshap_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{webapi_cshap_HostAddress}}/api/Character
+Content-Type: application/json
+
+{
+  "name": "Eduardo",
+  "type": "Desenvolvedor Pleno"
+}
+
